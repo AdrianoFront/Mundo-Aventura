@@ -12,6 +12,14 @@
 <body>
   <nav class="navbar">
     <h1 class="logo">ADVENTURE</h1>
+    <ul class="nav-links">
+      <li class="active"><a href="#"></a>Home</li>
+      <li><a href="#"></a>Tours</li>
+      <li><a href="#"></a>Explorer</li>
+      <li><a href="#"></a>About</li>
+      <li class="ctn"><a href="#"></a>Contact</li>
+    </ul>
+    <img src=".img/" alt="#" "menu-btn">
   </nav>
   <header>
     <div class="header-content">
@@ -21,6 +29,15 @@
       <a href="#" class="ctn">Lear More</a>
     </div>
   </header>
+  <script>
+    const menuBtn = document.querySelector('.menu-btn')
+    const navlinks = document.querySelector('.nav-links')
+
+    menuBtn.addEventListener('click', () = {
+      navlinks.classList.toggle('mobile-menu')
+    )}
+  </script>
+
 </body>
 
 </html>
