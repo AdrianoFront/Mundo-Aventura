@@ -21,6 +21,11 @@ ul {
   font-weight: bold;
 }
 
+body,
+html {
+  overflow: hidden;
+}
+
 header {
   width: 100vw;
   height: 100vh;
@@ -104,6 +109,34 @@ section {
 
 .row {
   display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.row .col {
+  width: 80%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.events .row {
+  margin-top: 50px;
+}
+
+h4 {
+  font-size: 3vmin;
+  color: #484872;
+  margin: 20px auto;
+}
+
+p {
+  color: #484872;
+  padding: 0px 40px;
+}
+
+.events .ctn {
+  margin-top: 30px;
 }
 
 @media only screen and (max-width: 850px) {
