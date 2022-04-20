@@ -175,6 +175,10 @@ p {
   margin-top: 40px;
 }
 
+.tours .image-gallery {
+  display: flex;
+}
+
 @media only screen and (max-width: 850px) {
   .menu-btn {
     display: block;
