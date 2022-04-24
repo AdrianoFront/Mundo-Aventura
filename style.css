@@ -209,8 +209,22 @@ p {
   margin: 30px auto;
 }
 
-content-col .ctn {
+.content-col .ctn {
   margin-left: -100px;
+}
+
+.footer {
+  width: 100%;
+  min-height: 200px;
+  padding: 20px 80px;
+  margin: 0;
+  background: #484872;
+  text-align: center;
+}
+.footer p {
+  color: whitesmoke;
+  margin: 20px auto;
+  padding: 20px auto;
 }
 
 @media only screen and (max-width: 850px) {
@@ -240,5 +254,20 @@ content-col .ctn {
   }
   .nav-link li {
     margin: 30px auto;
+  }
+  .row {
+    flex-direction: column;
+  }
+  .row .col {
+    margin: 20px auto;
+  }
+  .col img {
+    max-width: 90%;
+  }
+  .explore-content {
+    width: 100%;
+  }
+  .tours .col {
+    width: 100%;
   }
 }
