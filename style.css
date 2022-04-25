@@ -270,4 +270,32 @@ p {
   .tours .col {
     width: 100%;
   }
+  .tours .col {
+    width: 100%;
+  }
+  .image-gallery {
+    justify-content: center;
+    align-items: center;
+  }
+  .image-gallery img {
+    width: 90%;
+  }
+  .footer {
+    padding: 10px;
+  }
+  img {
+    transition: transform 0.3s ease;
+  }
+  img:hover {
+    transform: scale(1.2);
+  }
+  .ctn:hover {
+    background-color: whitesmoke;
+    color: #fc036b;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.336);
+  }
+  .li:hover {
+    color: #fc036b;
+    cursor: pointer;
+  }
 }
